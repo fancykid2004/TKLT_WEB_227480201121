@@ -1,0 +1,17 @@
+.box1{
+    border: 2px solid black;
+    padding: 20px;
+    width: 40%;
+    margin: auto;
+    background-color: pink;
+}
+
+h1{
+    color: aqua;
+    text-align: center;
+}
+
+ol{
+    font-size: 14px;
+    color: black;
+}
