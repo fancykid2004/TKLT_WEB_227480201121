@@ -1,0 +1,19 @@
+h1{
+    color:red;
+}
+h2{
+    color: blue;
+}
+h3{
+    color: green;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+.title1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size : 12px;
+    background-color: yellow;
+    width: 200px;
+}

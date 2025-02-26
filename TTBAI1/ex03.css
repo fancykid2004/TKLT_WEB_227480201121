@@ -1,0 +1,33 @@
+.box1{
+    display:flex;
+    justify-content: space-between;
+}
+.box2{
+    display:flex;
+    justify-content: space-between;
+}
+.nd3{
+    margin-left: 70px;
+    margin-top: -15px;
+}
+.nd1{
+    margin-left: 70px;
+}
+.nd2{
+    margin-right: 150px;
+}
+h1, p{
+    text-align: center;
+}
+.nd5{
+    margin-top: -15px;
+}
+.nd4{
+    margin-right: 210px;
+    margin-top: -15px;
+}
+
+h1{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
