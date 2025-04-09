@@ -1,0 +1,6 @@
+Câu 7 
+SELECT * FROM `hanghoa` WHERE mansx= 'DE'
+Câu 6
+DELETE FROM `khachhang` WHERE makh= 'K009'
+Câu 5 
+UPDATE `khachhang` SET `dienthoai` = '0912131415' WHERE makh = 'K006';
