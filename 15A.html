@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script language = "Javascript">
+function CapNhat()
+{
+    document.title = TieuDe.value;
+    document.bgColor = MauNen.value;
+    document.fgColor = MauChu.value;
+}
+</script>
+<body>
+    <h2>Nhập vào các giá trị và nhấn nút Thay đổi</h2>
+    <input type="Text" name="TieuDe" id="TieuDe" value="Tiêu đề mới"> <BR>
+    <input type="Text" name="MauNen" id="MauNen" value="Nhập màu vào đây (ví dụ blue)"> <BR>
+    <input type="Text" name="MauChu" id="MauChu" value="Nhập màu chữ vào đây (ví dụ white)"> <BR>
+    <input type="Text" name="TrangThai" id="TrangThai" value="Nhập dòng trạng thái vào đây"> <BR>
+    <input type="button" name="ThayDoi" value="Thay đổi" onclick="CapNhat();">
+    
+</body>
+</html>

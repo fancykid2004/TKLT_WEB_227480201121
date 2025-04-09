@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Hãy nhập hai số và click vào nút các phép toán mà bạn muốn tính</h2>
+    <input type ="text" name="SoHang1" id="SoHang1"> +-x/
+    <input type ="text" name="SoHang2" id="SoHang2"> =
+    <input type ="text" name="KetQua" id="KetQua">
+    <input type="button" value = "Tính tổng" onclick="KetQua.value = parseFloat(SoHang1.value)+ parseFloat(SoHang2.value)">
+    <input type="button" value = "Tính hiệu" onclick="KetQua.value = parseFloat(SoHang1.value) - parseFloat(SoHang2.value)">
+    <input type="button" value = "Tính tích" onclick="KetQua.value = parseFloat(SoHang1.value) * parseFloat(SoHang2.value)">
+    <input type="button" value = "Tính thương" onclick="KetQua.value = parseFloat(SoHang1.value) / parseFloat(SoHang2.value)">
+</body>
+</html>

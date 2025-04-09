@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script language="Javascript">
+        function DoiMau(Mau){
+            document.bgColor= Mau.value;
+        }
+        </script>
+    Bạn hãy chọn màu nền: <BR>
+    <input type="radio" name = "color" id="Mau" value="yellow" onclick="if(Mau.checked==true){DoiMau(Mau)}"> Màu vàng <BR>
+    <input type="radio" name = "color" id="Mau1"  value="green" onclick="if(Mau1.checked==true){DoiMau(Mau1)}"> Màu xanh lá <BR>   
+    <input type="radio" name = "color" id="Mau2"  value="brown" onclick="if(Mau2.checked==true){DoiMau(Mau2)}"> Màu nâu <BR>
+    <input type="radio" name = "color" id="Mau3"  value="magenta" onclick="if(Mau3.checked==true){DoiMau(Mau3)}" > Màu hồng sẫm <BR>
+</body>
+</html>

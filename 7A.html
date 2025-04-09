@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script language = "Javascript">
+        var D = new Date();
+        var NamSinh,NamHienTai;
+        NamHienTai= D.getFullYear();
+        do{
+            NamSinh = prompt("Ban sinh nam bao nhieu:","");
+        }while (parseInt(NamSinh)>NamHienTai);
+alert("Tuoi cua ban bay gio la:"+(NamHienTai-NamSinh));
+    </script>
+</body>
+</html>

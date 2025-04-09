@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var s1,x;
+        var ds= new Array(100);
+        s1= prompt("Nhap so luong cac thiet bi van phong")
+        for(i=0;i<s1;i++)
+        {
+            ds[i]=prompt("Nhap so luong cac thiet bi van phong")
+    
+        }
+        document.write("<table border ='1' cellspacing='0' cellpadding='5'");
+        document.write("<tr><th>Ten thiet bi</tr>");
+        for(x in ds){
+            if(ds[x]=="Computer"){
+                document.write("<tr><td>"+ds[x]+"</td></tr>");
+            }
+        }  
+        document.write("</table>");
+    </script>
+</body>
+</html>

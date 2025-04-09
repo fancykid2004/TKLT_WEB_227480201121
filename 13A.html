@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thay đổi giá trị của thuộc tính</title>
+</head>
+<body>
+    <h2>Hãy nhập hai số và click vào nút Tính tổng</h2>
+    <input type ="text" name="SoHang1" id="SoHang1"> +
+    <input type ="text" name="SoHang2" id="SoHang2"> =
+    <input type ="text" name="KetQua" id="KetQua">
+    <input type="button" value = "Tính tổng" onclick="KetQua.value = parseFloat(SoHang1.value)+ parseFloat(SoHang2.value)">
+</body>
+</html>

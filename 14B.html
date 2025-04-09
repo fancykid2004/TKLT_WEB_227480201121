@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<button>
+    <h2>Hãy nhập hai số và click vào nút các phép toán mà bạn muốn tính</h2>
+    <input type ="text" name="SoHang1" id="SoHang1"> +-x/
+    <input type ="text" name="SoHang2" id="SoHang2"> =
+    <input type ="text" name="KetQua" id="KetQua">
+    <input type="radio" name = "tinh" id="Tong" > Tổng
+    <input type="radio" name = "tinh" id="Hieu" > Hiệu
+    <input type="radio" name = "tinh" id="Tich" > Tích
+    <input type="radio" name = "tinh" id="Thuong"> Thương
+    <input type="button" value="Tính" onclick="if(Tong.checked == true){KetQua.value = parseFloat(SoHang1.value)+ parseFloat(SoHang2.value)}
+    if(Hieu.checked == true){KetQua.value = parseFloat(SoHang1.value) - parseFloat(SoHang2.value)}
+    if(Tich.checked ==true){KetQua.value = parseFloat(SoHang1.value) * parseFloat(SoHang2.value)}
+    if(Thuong.checked == true){KetQua.value = parseFloat(SoHang1.value) / parseFloat(SoHang2.value)}">
+</body>
+</html>

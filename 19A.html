@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="font-family:arial">
+    <input type="button" value="Gửi" id="Gửi" onmousemove="updateStatus('Chuột trong nút');">
+    <input type="text" onmousemove="updateStatus('Chuột trong textbox');"> <BR>
+    <input type="radio" name="GioiTinh" id="Nam" onmousemove="updateStatus('Trong nam');">Nam
+    <input type="radio" name="GioiTinh " id="nữ" onmousemove="updateStatus=('Trong nữ');">Nữ
+    <div id="status"></div>
+    <script>
+        function updateStatus(message){
+            document.getElementById('status').innerText=message;
+        }
+    </script>
+</body>
+</html>
