@@ -1,5 +1,8 @@
 <?php
-    setcookie("loggedin", "", time() - 600);
-    setcookie("user", "", time() - 600);
-    header("Location: login.html");
+    session_start();
+    if(isset($_SESSION['email'])){
+        unset($_SESSION['email']);
+        unset($_SESSION['password']);
+    }
+    header("location: login.html");
 ?>
